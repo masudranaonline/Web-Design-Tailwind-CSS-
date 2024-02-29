@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" /> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!--Start Navbar Section-->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 py-4">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./image/Group 40071 (2).png" class="h-8" alt="Flowbite Logo" />
+            <span class="self-center text-3xl whitespace-nowrap dark:text-white font-bold">Hero <span class="text-red-700">Travel</span></span>
+        </a>
+        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+                <a href="#" class="text-lg font-semibold text-[#46454b] hover:text-red-800" aria-current="page">Home</a>
+            </li>
+            <li>
+                <a href="#" class="font-semibold text-lg text-[#46454b] hover:text-red-800">About</a>
+            </li>
+            <li>
+                <a href="#" class="font-semibold text-lg text-[#46454b] hover:text-red-800">Services</a>
+            </li>
+            <li>
+                <a href="#" class="font-semibold text-lg text-[#46454b] hover:text-red-800">Pricing</a>
+            </li>
+            <li>
+                <a href="#" class="font-semibold text-lg text-[#46454b] hover:text-red-800">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+  <!--End Navbar Section-->
+
+   <!--Start banner Section-->
+   <div class="mx-auto max-w-7xl">
+        <div class="bg-[url('./image/hero.png')] h-[600px] w-full bg-no-repeat bg-center bg-cover rounded-lg">
+            <div class="mx-auto text-center w-3/5 py-24">
+                <h1 class="text-6xl font-bold text-white py-7">Explore Your Travel</h1>
+                <p class="text-white text-md font-semibold pt-5 pb-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim maiores laudantium dolore alias cumque consequuntur voluptate pariatur!</p>
+                <div class="">
+                    <input class="py-4 w-40 px-4 rounded-lg" type="text" placeholder="Where go">
+                    <select name="" id="" class="py-4 w-40 px-4 rounded-lg">
+                        <option value="">When</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                    <select name="" id="" class="py-4 w-40 px-4 rounded-lg">
+                        <option value="">Type</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                    <button class="py-4 w-40 rounded-lg bg-orange-500 text-white gap-4"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+                </div>
+            </div>
+        </div>
+   </div>
+  <!--End banner Section-->
+
+   <!--Start Our Popular Tours Section-->
+   <div class="mx-auto max-w-7xl pt-10 pb-6 px-8">
+    <div class="grid grid-cols-2 gap-8">
+        <div class="pt-4 ">
+            <h1 class="text-black font-bold text-3xl py-4 ">Our Popular Tours</h1>
+            <p class="text-gray-500 text-md leading-7 font-semibold py-4 text-justify">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+            <div class="text-gray-500 text-md leading-7 font-semibold py-4 text-justify">
+                <ul>
+                    <li>
+                      
+                        <ul class="ps-5 mt-2 space-y-1 list-disc list-inside">
+                           <li>You might feel like you are being really "organized" o</li>
+                           <li>Nested navigation in UIs is a bad idea too, keep things as flat as possible.</li>
+                           <li>Nesting tons of folders in your source code is also not helpful.</li>
+                        </ul>
+                     </li>
+                </ul>
+            </div>
+            <p class="text-gray-500 text-md leading-7 font-semibold py-4 text-justify">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
+                Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+                <button class="py-2 px-5 rounded-md bg-orange-500 text-white font-semibold mt-4">Read More</button>
+        </div>
+        <div class="">
+            <img class="" src="./image/Rectangle 4.png" alt="">
+        </div>
+    </div>
+   </div>
+  <!--End Our Popular Tours Section-->
+
+   <!--Start Choose Your Destination Section-->
+   <div class="mx-auto max-w-6xl py-4">
+    <div class="text-center py-6">
+        <h1 class="text-black font-bold text-3xl py-4 ">Choose Your Destination</h1>
+        <p class="text-gray-500 w-[600px] mx-auto text-sm">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.Sodales dictumst nec nibh pellentesque.</p>
+
+        <div class="grid grid-cols-4 gap-4 py-8">
+            <div class="col-span-2">
+                <img class="w-[650px]" src="./image/Rectangle 5.png" alt="">
+            </div>
+            <div class="col-span-2">
+                <img class="w-[650px]" src="./image/Rectangle 8.png" alt="">
+            </div>
+            <div class="">
+                <img class="h-72" src="./image/Rectangle 6.png" alt="">
+            </div>
+            <div class="col-span-2">
+                <img class="w-[650px] h-72" src="./image/Rectangle 7.png" alt="">
+            </div>
+            <div class="">
+                <img src="./image/Rectangle 9.png" alt="">
+            </div>
+            <div class="col-span-2">
+                <img class="h-64 w-[650px]" src="./image/Rectangle 11.png" alt="">
+            </div>
+            <div class="col-span-2">
+                <img src="./image/Rectangle 10.png" alt="">
+            </div>
+        </div>
+    </div>
+   </div>
+  <!--End Choose Your Destination Section-->
+
+     <!--Start Why Choose Us Section-->
+     <div class="mx-auto max-w-6xl py-4">
+        <div class="text-center py-6">
+            <h1 class="text-black font-bold text-3xl py-4 ">Choose Your Destination</h1>
+            <p class="text-gray-500 w-[600px] mx-auto text-sm">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.Sodales dictumst nec nibh pellentesque.</p>   
+        </div>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="col-span-2 border bg-gray-100 p-4 rounded-md shadow-lg">
+                <h4><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><path fill="#f9d16e" d="M84.333 56.452h21V109h-21z"/><path fill="#ffad5a" d="M44.706 37.667h39.627V109H44.706z"/><g fill="#fff8e3"><path d="M52.557 86.5H64.52V109H52.557zM64.52 86.5h11.963V109H64.52z"/></g><path fill="#fff8e3" d="M91.648 79.541h6.37v6.37h-6.37zM91.648 64.631h6.37v6.37h-6.37zM91.648 94.451h6.37v6.37h-6.37z"/><path d="M84.333 49.153h23.16a.167.167 0 0 1 .167.167v7.133H84.333v-7.3z" fill="#f7963e"/><path fill="#f9d16e" d="M44.706 109h-21V56.452h21z"/><path fill="#fff8e3" d="M37.391 85.911h-6.37v-6.37h6.37zM37.391 71.001h-6.37v-6.37h6.37zM37.391 100.821h-6.37v-6.37h6.37z"/><path d="M44.706 56.452H21.38v-7.133a.167.167 0 0 1 .167-.167h23.159v7.3z" fill="#f7963e"/><path fill="#fff8e3" d="M53.363 58.594h6.37v6.37h-6.37zM69.307 58.594h6.37v6.37h-6.37zM53.363 45.783h6.37v6.37h-6.37zM69.307 45.783h6.37v6.37h-6.37zM53.363 71.405h6.37v6.37h-6.37zM69.307 71.405h6.37v6.37h-6.37z"/><rect x="42.252" y="19" width="44.536" height="13.5" rx="2.835" fill="#4f9da6"/><g fill="#fff8e3"><path d="M52.568 22.31v6.88h-1.712v-2.744h-2.815v2.744h-1.712v-6.88h1.712v2.6h2.815v-2.6zM54.3 25.745A3.7 3.7 0 1 1 58 29.31a3.672 3.672 0 0 1-3.7-3.565zm5.638 0a1.944 1.944 0 1 0-1.943 2.013 2 2 0 0 0 1.938-2.013zM65.126 23.842h-2.092V22.31h5.888v1.532h-2.083v5.348h-1.713zM72.251 23.842v1.072h3.366v1.532h-3.366v1.212h3.706v1.532h-5.418v-6.88h5.418v1.532zM82.711 27.658v1.532h-5.018v-6.88h1.7v5.348z"/></g><path d="M52.562 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5zM76.477 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5z" fill="#4f9da6"/><path d="M109 110.75H19a1.75 1.75 0 0 1 0-3.5h90a1.75 1.75 0 0 1 0 3.5z" fill="#2d1f5e"/></svg></h4>
+                <h6 class="text-gray-800 font-bold text-xl py-4">Handpicked Hotels</h6>
+                <p class="text-gray-500 text-justify pb-4">Amet consectetur. Vulputate commodo felis molestie risus ornare  nulla amet et. Libero commodo sagittis dignissim adipiscing quis.Habitant adipiscing risus natoque aliquet.</p>
+            </div>
+            <div class=" col-span-2 border bg-gray-100 p-4 rounded-md shadow-lg">
+                <h4><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><path fill="#f9d16e" d="M84.333 56.452h21V109h-21z"/><path fill="#ffad5a" d="M44.706 37.667h39.627V109H44.706z"/><g fill="#fff8e3"><path d="M52.557 86.5H64.52V109H52.557zM64.52 86.5h11.963V109H64.52z"/></g><path fill="#fff8e3" d="M91.648 79.541h6.37v6.37h-6.37zM91.648 64.631h6.37v6.37h-6.37zM91.648 94.451h6.37v6.37h-6.37z"/><path d="M84.333 49.153h23.16a.167.167 0 0 1 .167.167v7.133H84.333v-7.3z" fill="#f7963e"/><path fill="#f9d16e" d="M44.706 109h-21V56.452h21z"/><path fill="#fff8e3" d="M37.391 85.911h-6.37v-6.37h6.37zM37.391 71.001h-6.37v-6.37h6.37zM37.391 100.821h-6.37v-6.37h6.37z"/><path d="M44.706 56.452H21.38v-7.133a.167.167 0 0 1 .167-.167h23.159v7.3z" fill="#f7963e"/><path fill="#fff8e3" d="M53.363 58.594h6.37v6.37h-6.37zM69.307 58.594h6.37v6.37h-6.37zM53.363 45.783h6.37v6.37h-6.37zM69.307 45.783h6.37v6.37h-6.37zM53.363 71.405h6.37v6.37h-6.37zM69.307 71.405h6.37v6.37h-6.37z"/><rect x="42.252" y="19" width="44.536" height="13.5" rx="2.835" fill="#4f9da6"/><g fill="#fff8e3"><path d="M52.568 22.31v6.88h-1.712v-2.744h-2.815v2.744h-1.712v-6.88h1.712v2.6h2.815v-2.6zM54.3 25.745A3.7 3.7 0 1 1 58 29.31a3.672 3.672 0 0 1-3.7-3.565zm5.638 0a1.944 1.944 0 1 0-1.943 2.013 2 2 0 0 0 1.938-2.013zM65.126 23.842h-2.092V22.31h5.888v1.532h-2.083v5.348h-1.713zM72.251 23.842v1.072h3.366v1.532h-3.366v1.212h3.706v1.532h-5.418v-6.88h5.418v1.532zM82.711 27.658v1.532h-5.018v-6.88h1.7v5.348z"/></g><path d="M52.562 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5zM76.477 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5z" fill="#4f9da6"/><path d="M109 110.75H19a1.75 1.75 0 0 1 0-3.5h90a1.75 1.75 0 0 1 0 3.5z" fill="#2d1f5e"/></svg></h4>
+                <h6 class="text-gray-800 font-bold text-xl py-4">Handpicked Hotels</h6>
+                <p class="text-gray-500 text-justify pb-4">Amet consectetur. Vulputate commodo felis molestie risus ornare  nulla amet et. Libero commodo sagittis dignissim adipiscing quis.Habitant adipiscing risus natoque aliquet.</p>
+            </div>
+            <div class="col-start-2 col-span-2 border bg-gray-100 p-4 rounded-md shadow-lg">
+                <h4><svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><path fill="#f9d16e" d="M84.333 56.452h21V109h-21z"/><path fill="#ffad5a" d="M44.706 37.667h39.627V109H44.706z"/><g fill="#fff8e3"><path d="M52.557 86.5H64.52V109H52.557zM64.52 86.5h11.963V109H64.52z"/></g><path fill="#fff8e3" d="M91.648 79.541h6.37v6.37h-6.37zM91.648 64.631h6.37v6.37h-6.37zM91.648 94.451h6.37v6.37h-6.37z"/><path d="M84.333 49.153h23.16a.167.167 0 0 1 .167.167v7.133H84.333v-7.3z" fill="#f7963e"/><path fill="#f9d16e" d="M44.706 109h-21V56.452h21z"/><path fill="#fff8e3" d="M37.391 85.911h-6.37v-6.37h6.37zM37.391 71.001h-6.37v-6.37h6.37zM37.391 100.821h-6.37v-6.37h6.37z"/><path d="M44.706 56.452H21.38v-7.133a.167.167 0 0 1 .167-.167h23.159v7.3z" fill="#f7963e"/><path fill="#fff8e3" d="M53.363 58.594h6.37v6.37h-6.37zM69.307 58.594h6.37v6.37h-6.37zM53.363 45.783h6.37v6.37h-6.37zM69.307 45.783h6.37v6.37h-6.37zM53.363 71.405h6.37v6.37h-6.37zM69.307 71.405h6.37v6.37h-6.37z"/><rect x="42.252" y="19" width="44.536" height="13.5" rx="2.835" fill="#4f9da6"/><g fill="#fff8e3"><path d="M52.568 22.31v6.88h-1.712v-2.744h-2.815v2.744h-1.712v-6.88h1.712v2.6h2.815v-2.6zM54.3 25.745A3.7 3.7 0 1 1 58 29.31a3.672 3.672 0 0 1-3.7-3.565zm5.638 0a1.944 1.944 0 1 0-1.943 2.013 2 2 0 0 0 1.938-2.013zM65.126 23.842h-2.092V22.31h5.888v1.532h-2.083v5.348h-1.713zM72.251 23.842v1.072h3.366v1.532h-3.366v1.212h3.706v1.532h-5.418v-6.88h5.418v1.532zM82.711 27.658v1.532h-5.018v-6.88h1.7v5.348z"/></g><path d="M52.562 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5zM76.477 39.167a1.5 1.5 0 0 1-1.5-1.5V32.5a1.5 1.5 0 0 1 3 0v5.167a1.5 1.5 0 0 1-1.5 1.5z" fill="#4f9da6"/><path d="M109 110.75H19a1.75 1.75 0 0 1 0-3.5h90a1.75 1.75 0 0 1 0 3.5z" fill="#2d1f5e"/></svg></h4>
+                <h6 class="text-gray-800 font-bold text-xl py-4">Handpicked Hotels</h6>
+                <p class="text-gray-500 text-justify pb-4">Amet consectetur. Vulputate commodo felis molestie risus ornare  nulla amet et. Libero commodo sagittis dignissim adipiscing quis.Habitant adipiscing risus natoque aliquet.</p>
+            </div>
+        </div>
+       </div>
+  <!--End Why Choose Us Section-->
+
+     <!--Start Deals & Discounts Section-->
+     <div class="mx-auto max-w-6xl py-4">
+        <div class="text-center py-6">
+            <h1 class="text-black font-bold text-3xl py-4 ">Deals & Discounts</h1>
+            <p class="text-gray-500 w-[600px] mx-auto text-sm">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.Sodales dictumst nec nibh pellentesque.</p>   
+        </div>
+        <div class="bg-center bg-no-repeat bg-[url('./image/Group39.png')] h-96"></div>
+        <!-- <img src="./image/Group 39.png" alt=""> -->
+       </div>
+  <!--End Deals & Discounts Section-->
+
+     <!--Start Navbar Section-->
+  <!--End Navbar Section-->
+
+     <!--Start Navbar Section-->
+  <!--End Navbar Section-->
+
+   <!--Start Navbar Section-->
+  <!--End Navbar Section-->
+</body>
+</html>
